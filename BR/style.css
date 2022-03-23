@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Verdana;
+}
+
+.logo{
+    font-size: 34px;
+    margin-left:1.5%;
+}
+.links{
+   float: right;
+}
+.links a {
+    font-size: 28px;
+    text-decoration: none;
+    color:black;
+    padding-right:20px;
+}
+.navbar{
+    padding:20px 0;
+    box-shadow: 0px 8px 20px grey;
+}
+.br-a{
+    position: relative;
+}
+.br-a-img{
+    width: 100%;
+    position: relative;
+}
+.br-a-cont{
+    position: absolute ;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: aliceblue;
+
+}
+.br-a-cont b{
+    background-color: rgb(34, 32, 32,0.9);
+    padding :10px;
+}
+
+
+.Projects ,.About ,.Contact{
+    margin: 5%;
+}
+.house{
+    padding-top: 20px;
+    display: block;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.house_card{
+    display: block;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    width: 23%;
+    clear:none;
+    float: left;
+    
+}
+.house_card h4{
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    font-weight: normal;
+    position: absolute;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 0px;
+    
+}
+.house-card-img{
+    width: 100%;
+
+}
+
+p{
+   padding-top: 20px;  
+}
+.contact-card{
+    width:24%;
+    display:inline-block;
+}
+.contact-name,.job-description{
+    font-size:24px;
+    font-family: Courier;
+    text-align: center;
+}
+.contact-name{
+    color:black;
+}
+.job-description{
+    color:grey;
+    font-weight: lighter;
+}
+
+.contact-formule button{
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 12px;
+}
+input{
+    border: 1px solid rgb(203, 190, 190); 
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.About button{
+    width: 100%;
+    border: 1px solid #DAD5D5; 
+    background-color: #DAD5D5;
+
+}
+.map-img{
+    width: 90%;
+   margin: 5%;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 4%;
+    text-align: center;
+}
